@@ -1,0 +1,50 @@
+XTerm*background: #121212
+XTerm*foreground: #dfe8e5
+
+! black
+XTerm*color0: #363636
+XTerm*color8: #363636
+
+! red
+XTerm*color1: #e85a5a
+XTerm*color9: #e85a5a
+
+! green
+XTerm*color2: #7ee85a
+XTerm*color10: #7ee85a
+
+! yellow
+XTerm*color3: #e8dc5a
+XTerm*color11: #e8dc5a
+
+! blue
+XTerm*color4: #5a95e8
+XTerm*color12: #5a95e8
+
+! magenta
+XTerm*color5: #bd5ae8
+XTerm*color13: #bd5ae8
+
+! cyan
+XTerm*color6: #5ae8c5
+XTerm*color14: #5ae8c5
+
+! white
+XTerm*color7: #dfebe4
+XTerm*color15: #dfebe4
+
+XTerm*scrollBar: false
+XTerm*faceName: FiraCode Nerd Font Mono
+XTerm*faceSize: 12
+XTerm*selectToClipboard: true
+XTerm*cutToClipboard: true
+XTerm*translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD) \n\
+    Alt <Key> Return: ignore()
+
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+
